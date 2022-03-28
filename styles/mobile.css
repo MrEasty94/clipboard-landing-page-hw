@@ -26,31 +26,43 @@ h3 {
   font-size: 24px;
 }
 
-/* img {
-  display: block;
-  margin: 0 auto 20px auto;
-} */
-
 /* Wrapper Style */
 
 .wrapper {
   padding: 0 32px;
 }
 
-/* Button Styling */
+/* Header Style */
+
+header {
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  margin-block-end: 160px;
+  background-size: contain;
+}
+
+header img {
+  padding: 123px 0 64px 0;
+}
+
+/* Button Styles */
 
 .download {
   margin: 48px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 a.btn {
   display: flex;
   font-size: 18px;
   color: hsl(0, 0%, 100%);
-  max-width: 310px;
+  width: 310px;
   height: 54px;
   border-radius: 25px;
-  margin: 0 auto 24px auto;
+  margin-bottom: 24px;
   justify-content: center;
   align-items: center;
 }
@@ -71,18 +83,6 @@ a.btn {
 .mac:focus,
 .mac:hover {
   background-color: hsla(233, 100%, 69%, 0.733);
-}
-
-/* Header Style */
-
-header {
-  background-image: url(../images/bg-header-mobile.png);
-  background-repeat: no-repeat;
-  margin-block-end: 160px;
-}
-
-header img {
-  padding: 123px 0 64px 0;
 }
 
 /* Features Styling */

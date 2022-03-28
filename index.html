@@ -17,13 +17,12 @@
   <link rel="stylesheet" href="./styles/generics.css">
   <link rel="stylesheet" href="./styles/mobile.css">
   <link rel="stylesheet" href="./styles/tablet.css" media="(min-width:690px)">
-  <link rel="stylesheet" href="./styles/desktop.css" media="(min-width:960px)">
 </head>
 
 <body>
 
   <header>
-    <div class="wrapper">
+    <div class="wrapper wrapper-desktop">
       <img src="./images/logo.svg" alt="company logo">
       <h1>A history of everything you copy</h1>
       <p>
@@ -73,8 +72,10 @@
     </article>
 
     <article class="workflow">
-      <h2>Supercharge your workflow</h2>
-      <p>We’ve got the tools to boost your productivity.</p>
+      <div class="workflow-heading">
+        <h2>Supercharge your workflow</h2>
+        <p>We’ve got the tools to boost your productivity.</p>
+      </div>
       <ul>
         <li>
           <i class="fa-solid fa-scroll fa-2xl"></i>
@@ -115,21 +116,23 @@
     </article>
   </main>
 
-  <footer class="wrapper">
-    <img src="./images/logo.svg" alt="" width="55px">
-    <nav>
-      <a href="">FAQs</a>
-      <a href="">Contact Us</a>
-      <a href="">Privacy Policy</a>
-      <a href="">Press Kit</a>
-      <a href="">Install Guide</a>
-    </nav>
+  <footer>
+    <div class="wrapper">
+      <img src="./images/logo.svg" alt="" width="55px">
+      <nav>
+        <a href="">FAQs</a>
+        <a href="">Contact Us</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Press Kit</a>
+        <a href="">Install Guide</a>
+      </nav>
 
-    <ul class="social-icons">
-      <li><a href="#"><i class="fa-brands fa-facebook-square fa-2xl"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
-      <li><a href="#"><i class="fa-brands fa-instagram-square fa-2xl"></i></a></li>
-    </ul>
+      <ul class="social-icons">
+        <li><a href="#"><i class="fa-brands fa-facebook-square fa-2xl"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram-square fa-2xl"></i></a></li>
+      </ul>
+    </div>
   </footer>
 
 </body>
