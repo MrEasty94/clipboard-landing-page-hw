@@ -1,12 +1,17 @@
 body {
   font-size: 16px;
   font-family: "Bai Jamjuree", sans-serif;
-  color:hsl(201, 11%, 66%);
+  color: hsl(201, 11%, 66%);
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	color: hsl(210, 10%, 33%);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: hsl(210, 10%, 33%);
 }
 
 h1 {
@@ -21,25 +26,163 @@ h3 {
   font-size: 24px;
 }
 
-a {
-  font-size: 18px;
+/* img {
   display: block;
+  margin: 0 auto 20px auto;
+} */
+
+/* Wrapper Style */
+
+.wrapper {
+  padding: 0 32px;
 }
 
+/* Button Styling */
+
+.download {
+  margin: 48px 0 0 0;
+}
+
+a.btn {
+  display: flex;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  max-width: 310px;
+  height: 54px;
+  border-radius: 25px;
+  margin: 0 auto 24px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.ios {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.ios:focus,
+.ios:hover {
+  background-color: hsla(171, 66%, 44%, 0.733);
+}
+
+.mac {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.mac:focus,
+.mac:hover {
+  background-color: hsla(233, 100%, 69%, 0.733);
+}
+
+/* Header Style */
+
 header {
-	background-image: url(../images/bg-header-mobile.png);
-	background-repeat: no-repeat;
+  background-image: url(../images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  margin-block-end: 160px;
 }
 
 header img {
-	padding-top: 123px;
+  padding: 123px 0 64px 0;
 }
 
+/* Features Styling */
 
-- Strong Cyan: hsl(171, 66%, 44%)
-- Light Blue: hsl(233, 100%, 69%)
+.features {
+  margin-block-end: 186px;
+}
 
-### Neutral
+.features h3 {
+  padding-bottom: 10px;
+}
 
-- Dark Grayish Blue: hsl(210, 10%, 33%)
-- Grayish Blue: hsl(201, 11%, 66%)
+.features img {
+  padding: 65px 0 56px 0;
+}
+
+.features li {
+  padding-bottom: 48px;
+}
+
+/* Clipboard */
+
+.clipboard {
+  margin-block-end: 130px;
+}
+
+.clipboard img {
+  padding: 64px 0 0 0;
+}
+
+/* Workflow Styling */
+
+.workflow {
+  margin-block-end: 130px;
+}
+
+.workflow ul {
+  margin-top: 90px;
+}
+
+.workflow li {
+  margin-bottom: 50px;
+}
+
+.workflow li:last-child {
+  margin-bottom: 0;
+}
+
+.workflow i {
+  padding-bottom: 40px;
+}
+
+/* Main Images Block Styling */
+
+.images {
+  margin-block-end: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.images img {
+  margin: 0 auto 60px auto;
+}
+
+.app-store {
+  margin-block-end: 170px;
+}
+
+/* Footer Styling */
+
+footer {
+  background-color: #9eabb254;
+
+  color: #4c545c;
+}
+
+footer img {
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+footer nav {
+  margin-block-start: 40px;
+  margin-block-end: 50px;
+}
+
+footer a {
+  display: block;
+  padding-bottom: 20px;
+}
+
+footer ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+footer a:hover,
+a:focus {
+  color: #26bba4;
+}
